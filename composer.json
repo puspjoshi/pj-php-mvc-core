@@ -1,5 +1,5 @@
 {
-    "name": "pj/php-mvc-core",
+    "name": "eork/php-mvc-core",
     "autoload": {
         "psr-4": {
             "Pj\\PhpMvcCore\\": "src/"
