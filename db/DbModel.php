@@ -1,8 +1,8 @@
 <?php
-namespace app\core\db;
+namespace eork\phpmvc\db;
 
-use app\core\Application;
-use app\core\Model;
+use eork\phpmvc\Application;
+use eork\phpmvc\Model;
 
 /**
  * User: Pusp raj joshi
@@ -14,7 +14,7 @@ use app\core\Model;
   * Class DbModel
   * 
   * @author Pusp Joshi <erpushparaj23@gmail.com>
-  * @package app\core\db
+  * @package eork\phpmvc\db
   *
   */
 

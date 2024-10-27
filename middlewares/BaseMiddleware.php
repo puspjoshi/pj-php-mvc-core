@@ -1,5 +1,5 @@
 <?php
-namespace app\core\middlewares;
+namespace eork\phpmvc\middlewares;
 /**
  * User: Pusp raj joshi
  * Date: Aug 2024
@@ -10,7 +10,7 @@ namespace app\core\middlewares;
   * Class BaseMiddleware
   * 
   * @author Pusp Joshi <erpushparaj23@gmail.com>
-  * @package app\core\middlewares
+  * @package eork\phpmvc\middlewares
   *
   */
 

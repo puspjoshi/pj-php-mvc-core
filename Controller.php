@@ -1,7 +1,7 @@
 <?php
-namespace app\core;
+namespace eork\phpmvc;
 
-use app\core\middlewares\BaseMiddleware;
+use eork\phpmvc\middlewares\BaseMiddleware;
 
 /**
  * User: Pusp raj joshi
@@ -13,7 +13,7 @@ use app\core\middlewares\BaseMiddleware;
   * Class Controller
   * 
   * @author Pusp Joshi <erpushparaj23@gmail.com>
-  * @package app\core
+  * @package eork\phpmvc
   *
   */
   
@@ -24,7 +24,7 @@ use app\core\middlewares\BaseMiddleware;
 
     public string $action = '';
     /**
-     * @var \app\core\middlewares\BaseMiddleware[]
+     * @var \eork\phpmvc\middlewares\BaseMiddleware[]
      */
     protected array $middlewares = [];
     

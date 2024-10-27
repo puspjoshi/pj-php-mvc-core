@@ -1,8 +1,8 @@
 <?php
-namespace app\core\middlewares;
+namespace eork\phpmvc\middlewares;
 
-use app\core\Application;
-use app\core\exception\ForbiddenException;
+use eork\phpmvc\Application;
+use eork\phpmvc\exception\ForbiddenException;
 
 /**
  * User: Pusp raj joshi
@@ -14,7 +14,7 @@ use app\core\exception\ForbiddenException;
   * Class AuthMiddleware
   * 
   * @author Pusp Joshi <erpushparaj23@gmail.com>
-  * @package app\core\middlewares
+  * @package eork\phpmvc\middlewares
   *
   */
 

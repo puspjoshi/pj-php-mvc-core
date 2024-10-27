@@ -1,7 +1,7 @@
 <?php
-namespace app\core\db;
+namespace eork\phpmvc\db;
 
-use app\core\Application;
+use eork\phpmvc\Application;
 use PDO;
 
 /**
@@ -14,7 +14,7 @@ use PDO;
   * Class Database
   * 
   * @author Pusp Joshi <erpushparaj23@gmail.com>
-  * @package app\core\db
+  * @package eork\phpmvc\db
   *
   */
 

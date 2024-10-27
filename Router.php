@@ -1,7 +1,7 @@
 <?php
-namespace app\core;
+namespace eork\phpmvc;
 
-use app\core\exception\NotFoundException;
+use eork\phpmvc\exception\NotFoundException;
 
 /**
  * User: Pusp raj joshi
@@ -13,7 +13,7 @@ use app\core\exception\NotFoundException;
   * Class Router
   * 
   * @author Pusp Joshi <erpushparaj23@gmail.com>
-  * @package app\core
+  * @package eork\phpmvc
   *
   */
 
@@ -27,8 +27,8 @@ use app\core\exception\NotFoundException;
     /**
     * Router constructor
     * 
-    * @param \app\core\Request $request
-    * @param \app\core\Response $response
+    * @param \eork\phpmvc\Request $request
+    * @param \eork\phpmvc\Response $response
     *
     */
     public function __construct(Request $request, Response $response){
@@ -63,7 +63,7 @@ use app\core\exception\NotFoundException;
         }
         if(is_array($callback)){
           /**
-           * @var \app\core\Controller $controller
+           * @var \eork\phpmvc\Controller $controller
            */
           $controller = new $callback[0]();
           Application::$app->controller = $controller;

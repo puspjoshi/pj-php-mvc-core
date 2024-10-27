@@ -1,5 +1,5 @@
 <?php
-namespace app\core;
+namespace eork\phpmvc;
 /**
  * User: Pusp raj joshi
  * Date: Aug 2024
@@ -10,7 +10,7 @@ namespace app\core;
   * Class Session
   * 
   * @author Pusp Joshi <erpushparaj23@gmail.com>
-  * @package app\core
+  * @package eork\phpmvc
   *
   */
 

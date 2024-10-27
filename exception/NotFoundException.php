@@ -1,5 +1,5 @@
 <?php
-namespace app\core\exception;
+namespace eork\phpmvc\exception;
 
 
 /**
@@ -12,7 +12,7 @@ namespace app\core\exception;
   * Class ForbiddenException
   * 
   * @author Pusp Joshi <erpushparaj23@gmail.com>
-  * @package app\core\exception
+  * @package eork\phpmvc\exception
   *
   */
 

@@ -1,7 +1,7 @@
 <?php
-namespace app\core\form;
+namespace eork\phpmvc\form;
 
-use app\core\Model;
+use eork\phpmvc\Model;
 
 /**
  * User: Pusp raj joshi
@@ -13,7 +13,7 @@ use app\core\Model;
   * Class Field
   * 
   * @author Pusp Joshi <erpushparaj23@gmail.com>
-  * @package app\core\form
+  * @package eork\phpmvc\form
   *
   */
 

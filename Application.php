@@ -1,8 +1,8 @@
 <?php
-namespace app\core;
+namespace eork\phpmvc;
 
-use app\core\db\Database;
-use app\core\db\DbModel;
+use eork\phpmvc\db\Database;
+use eork\phpmvc\db\DbModel;
 
 /**
  * User: Pusp raj joshi
@@ -14,7 +14,7 @@ use app\core\db\DbModel;
   * Class Application
   * 
   * @author Pusp Joshi <erpushparaj23@gmail.com>
-  * @package app\core
+  * @package eork\phpmvc
   *
   */
 
@@ -70,12 +70,12 @@ use app\core\db\DbModel;
         
     }
 
-    public function getController(): \app\core\Controller
+    public function getController(): \eork\phpmvc\Controller
     {
       return $this->controller;
     }
 
-    public function setController(\app\core\Controller $controller): void
+    public function setController(\eork\phpmvc\Controller $controller): void
     {
       $this->controller = $controller;
     }

@@ -1,7 +1,7 @@
 <?php
-namespace app\core;
+namespace eork\phpmvc;
 
-use app\core\db\DbModel;
+use eork\phpmvc\db\DbModel;
 
 /**
  * User: Pusp raj joshi
@@ -13,7 +13,7 @@ use app\core\db\DbModel;
   * Class UserModel
   * 
   * @author Pusp Joshi <erpushparaj23@gmail.com>
-  * @package app\core
+  * @package eork\phpmvc
   *
   */
 
